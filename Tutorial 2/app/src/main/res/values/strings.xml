@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Tutorial 2</string>
+    <string name="example_autocompletetextview">Contoh ini menampilkan AutoCompleteTextView</string>
+    <string name="example_radiogroup">Contoh ini menampilkan RadioGroup</string>
+    <string name="spinner_title">Contoh ini menampilkan Spinner</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="time_picker_example">Contoh Time Picker</string>
+    <string name="time_pick">Pilih waktu dan klik tombol Simpan</string>
+    <string name="time_save">Simpan</string>
+    <string name="time_selected"></string>
+    <string name="time_current">Waktu dipilih adalah: </string>
+    <string name="hello_world">Halo Dunia!</string>
+    <string name="date_label_set">Tekan button untuk mengatur tanggal</string>
+    <string name="date_button_set">Atur Tanggal</string>
+    <string name="date_view_set">Tanggal yang diatur: </string>
+    <string name="date_selected"></string>
+
+</resources>

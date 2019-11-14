@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ActivityToggleButton">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:text="Contoh checkbox"
+            android:textSize="30dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you like Android Programming?"
+            android:layout_above="@+id/button"
+            android:layout_centerHorizontal="true" />
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you like Java Programming? "
+            android:checked="false"
+            android:layout_above="@+id/checkBox1"
+            android:layout_alignLeft="@+id/checkBox1"
+            android:layout_alignStart="@+id/checkBox1" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_alignLeft="@+id/checkBox1"
+            android:layout_alignEnd="@+id/textView1"
+            android:layout_alignRight="@+id/textView1"
+            android:layout_marginLeft="56dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginRight="33dp"
+            android:text="Kelas 3SC6"
+            android:textColor="@android:color/black"
+            android:textSize="30dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ok"
+            android:id="@+id/button"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/checkBox1"
+            android:layout_alignStart="@+id/checkBox1" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/button2"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_alignEnd="@+id/textView2" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="291dp"
+            android:layout_height="354dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo" />
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
