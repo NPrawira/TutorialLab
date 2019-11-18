@@ -8,14 +8,14 @@ import android.widget.AutoCompleteTextView;
 public class ActivityAutoComplete extends Activity {
         AutoCompleteTextView autocmplt;
         String[] arr = {"A'qila", "Albert", "Aeru", "Halim", "Raudhiatul", "Azhrin",
-                "Nandaffa", "Thalia", "Luthfie", "Fahreza", "Hada", "Naufal"};
+                "Nandaffa", "Thalia", "Luthfie", "Fahreza", "Hada", "Naufal", "leptop gembel"};
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
 
             setContentView(R.layout.control_autocomplete);
 
-            autocmplt = (AutoCompleteTextView)findViewById(R.id.autoCompleteTextView1);
+            autocmplt = findViewById(R.id.autoCompleteTextView1);
             ArrayAdapter<String> adapter = new ArrayAdapter<>
             (this, android.R.layout.select_dialog_item, arr);
 
