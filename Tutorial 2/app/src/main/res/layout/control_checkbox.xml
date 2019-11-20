@@ -27,15 +27,19 @@
             android:text="Do you like Android Programming?"
             android:layout_above="@+id/button"
             android:layout_centerHorizontal="true" />
+
         <CheckBox
             android:id="@+id/checkBox2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Do you like Java Programming? "
-            android:checked="false"
             android:layout_above="@+id/checkBox1"
+            android:layout_alignStart="@+id/checkBox1"
             android:layout_alignLeft="@+id/checkBox1"
-            android:layout_alignStart="@+id/checkBox1" />
+            android:layout_marginStart="13dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginBottom="45dp"
+            android:checked="false"
+            android:text="Do you like Java Programming? " />
 
         <TextView
             android:id="@+id/textView2"
@@ -45,10 +49,10 @@
             android:layout_alignLeft="@+id/checkBox1"
             android:layout_alignEnd="@+id/textView1"
             android:layout_alignRight="@+id/textView1"
-            android:layout_marginLeft="56dp"
-            android:layout_marginTop="22dp"
-            android:layout_marginEnd="33dp"
-            android:layout_marginRight="33dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="67dp"
+            android:layout_marginRight="67dp"
             android:text="Kelas 3SC6"
             android:textColor="@android:color/black"
             android:textSize="30dp" />
