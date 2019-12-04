@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tutorial 7</string>
+    <string name="empty_list_text">Data kosong!</string>
+    <string name="enter_nama">Nama</string>
+    <string name="enter_kelas">Kelas</string>
+    <string name="add_record">Buat</string>
+    <string name="btn_update">Ubah</string>
+    <string name="btn_delete">Hapus</string>
+</resources>
