@@ -7,8 +7,6 @@
     tools:context=".MainActivity">
 
     <RelativeLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".intent.explicit.MainActivity">
@@ -19,6 +17,7 @@
             android:text="Activity 1"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textStyle="bold" />
+
         <Button
             android:id="@+id/btnSatu"
             android:layout_width="wrap_content"
@@ -28,7 +27,7 @@
             android:layout_alignParentBottom="true"
             android:layout_marginEnd="137dp"
             android:layout_marginRight="137dp"
-            android:layout_marginBottom="364dp"
+            android:layout_marginBottom="460dp"
             android:onClick="launchSecondActivity"
             android:text="Ke Halaman 2" />
     </RelativeLayout>
