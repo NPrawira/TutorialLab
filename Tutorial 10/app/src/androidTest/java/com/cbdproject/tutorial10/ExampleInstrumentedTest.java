@@ -1,4 +1,4 @@
-package com.example.tutorial10;
+package com.cbdproject.tutorial10;
 
 import android.content.Context;
 
